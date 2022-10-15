@@ -33,7 +33,7 @@ const docusaurusConfig = {
       // selector: `'.beamerContainer'`,
     },
     prism: {
-      additionalLanguages: ['java', 'ruby', 'csharp', 'bash', 'powershell', 'python'],
+      additionalLanguages: ['java', 'ruby', 'csharp', 'bash', 'powershell', 'python', 'yaml'],
     },
     /* Dark and Light Mode Config */
     colorMode: {

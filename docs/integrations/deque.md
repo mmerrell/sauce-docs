@@ -1,7 +1,7 @@
 ---
 id: deque
 title: Deque axe™ Integration
-sidebar_label: Deque axe
+sidebar_label: axe-core (by Deque)
 description: Link your Sauce Labs account with axe to add accessibility testing to your existing tests.
 keywords:
     - accessibility-testing
@@ -36,7 +36,7 @@ Sauce Labs will display the accessibility results in our UI as a tab in the job 
 <img src={useBaseUrl('img/accessibility/example.png')} alt="Accessibility Example in Sauce UI"/>
 
 
-## Language Specific Examples
+## Language-Specific Examples
 
 <Tabs
   groupId="axe-lang-examples"
@@ -227,8 +227,8 @@ For more detailed usage, see [Selenium.Axe for .NET](https://troywalshprof.githu
 ## Additional Resources
 * [Deque Sauce Labs Integration Documentation](https://www.deque.com/saucelabs/get-started/)
 * [Sauce Bindings Accessibility Feature](https://opensource.saucelabs.com/sauce_bindings/accessibility)
-* [Deque `axe-core` Selenium Integration for Java](https://github.com/dequelabs/axe-core-maven-html)
 * [Sa11y - Selenium Accessibility for Python & Ruby](https://github.com/saucelabs/sa11y)
+* [Deque `axe-core` Selenium Integration for Java](https://github.com/dequelabs/axe-core-maven-html)
 * [Deque `axe-core` Example WebdriverIO Project](https://github.com/dequelabs/axe-core-npm/tree/develop/packages/webdriverio)
 * [Documentation about the chainable `axe` API for WebdriverIO](https://www.npmjs.com/package/@axe-core/webdriverio)
 * [Selenium.Axe for .NET](https://github.com/TroyWalshProf/SeleniumAxeDotnet/)
