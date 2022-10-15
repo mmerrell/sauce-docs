@@ -1105,11 +1105,20 @@ module.exports = {
       collapsed: true,
       items: [
         'integrations/integrations-overview',
-        'integrations/deque',
+        {
+          type: 'category',
+          label: 'Accessibility',
+          link: { type: 'doc', id: 'integrations/deque' },
+          collapsed: true,
+          items: [
+            'integrations/deque',
+          ],
+        },
         'integrations/jira',
         'integrations/gitlab',
         'integrations/slack',
         'integrations/webhooks',
+        'integrations/uipath',
         'integrations/sumo',
       ],
     },

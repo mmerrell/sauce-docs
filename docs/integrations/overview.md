@@ -18,56 +18,56 @@ We partner with the top companies in the industry to bring you a complete soluti
 <div className="box-wrapper" markdown="1">
   <div className="box box1 card">
     <div className="container">
-    <a href="/ci/jenkins/"><img src={useBaseUrl('img/integrations/logo-jenkins.webp')} alt="Jenkins logo" width="64" /></a>
-    <h2>Jenkins</h2>
+        <a href="/ci/jenkins/"><img src={useBaseUrl('img/integrations/logo-jenkins.webp')} alt="Jenkins logo" width="64" /></a>
+        <h2>Jenkins</h2>
     </div>
   </div>
   <div className="box box2 card">
     <div className="container">
-    <a href="https://docs.travis-ci.com/user/sauce-connect/"> <img src={useBaseUrl('img/integrations/logo-travis-ci.webp')} alt="Travis CI logo" width="64" /></a>
-    <h2>Travis CI</h2>
+        <a href="https://docs.travis-ci.com/user/sauce-connect/"> <img src={useBaseUrl('img/integrations/logo-travis-ci.webp')} alt="Travis CI logo" width="64" /></a>
+        <h2>Travis CI</h2>
     </div>
   </div>
   <div className="box box3 card">
     <div className="container">
-    <a href="/ci/teamcity/"> <img src={useBaseUrl('img/integrations/logo-team-city.webp')} alt="TeamCity logo" width="64" /></a>
-    <h2>TeamCity</h2>
+        <a href="/ci/teamcity/"> <img src={useBaseUrl('img/integrations/logo-team-city.webp')} alt="TeamCity logo" width="64" /></a>
+        <h2>TeamCity</h2>
     </div>
   </div>
   <div className="box box4 card">
     <div className="container">
-    <a href="/integrations/gitlab/"> <img src={useBaseUrl('img/integrations/gitlab.png')} alt="GitLab logo" width="64" /></a>
-    <h2>GitLab</h2>
+        <a href="/integrations/gitlab/"> <img src={useBaseUrl('img/integrations/gitlab.png')} alt="GitLab logo" width="64" /></a>
+        <h2>GitLab</h2>
     </div>
   </div>
   <div className="box box5 card">
     <div className="container">
-    <a href="https://circleci.com/docs/browser-testing/#sauce-labs"> <img src={useBaseUrl('img/integrations/logo-circle-ci.webp')} alt="CircleCI logo" width="64" /></a>
-    <h2>CircleCI</h2>
+        <a href="https://circleci.com/docs/browser-testing/#sauce-labs"> <img src={useBaseUrl('img/integrations/logo-circle-ci.webp')} alt="CircleCI logo" width="64" /></a>
+        <h2>CircleCI</h2>
     </div>
   </div>
   <div className="box box6 card">
     <div className="container">
-    <a href="https://docs.saucelabs.com/dev/cli/saucectl/usage/ci/github-actions/"> <img src={useBaseUrl('img/integrations/GitHub-Mark-64px.png')} alt="Github logo" width="64" /></a>
-    <h2>Github Actions</h2>
+        <a href="https://docs.saucelabs.com/dev/cli/saucectl/usage/ci/github-actions/"> <img src={useBaseUrl('img/integrations/GitHub-Mark-64px.png')} alt="Github logo" width="64" /></a>
+        <h2>Github Actions</h2>
     </div>
   </div>
   <div className="box box7 card">
     <div className="container">
-    <a href="/ci/bamboo/"> <img src={useBaseUrl('img/integrations/logo-bamboo.webp')} alt="Bamboo logo" width="64" /></a>
-    <h2>Bamboo</h2>
+        <a href="/ci/bamboo/"> <img src={useBaseUrl('img/integrations/bamboo.webp')} alt="Bamboo logo" width="64" /></a>
+        <h2>Bamboo</h2>
    </div>
   </div>
   <div className="box box8 card">
     <div className="container">
-    <a href=""> <img src={useBaseUrl('img/integrations/cloudbees-logo.webp')} alt="Cloudbees logo" width="64" /></a>
-    <h2>Cloudbees (hosted Jenkins)</h2>
+        <a href=""> <img src={useBaseUrl('img/integrations/images.png')} alt="Cloudbees logo" width="64" /></a>
+        <h2>Cloudbees (hosted Jenkins)</h2>
    </div>
   </div>
   <div className="box box9 card">
     <div className="container">
-    <a href="/ci/azure"> <img src={useBaseUrl('img/integrations/Azure-Devops-Logo-Transparent.webp')} alt="Cloudbees logo" width="64" /></a>
-    <h2>Azure DevOps</h2>
+        <a href="/ci/azure"> <img src={useBaseUrl('img/integrations/Azure-Devops-Logo-Transparent.webp')} alt="Cloudbees logo" width="64" /></a>
+        <h2>Azure DevOps</h2>
    </div>
   </div>
 </div>
@@ -77,20 +77,27 @@ We partner with the top companies in the industry to bring you a complete soluti
 <div className="box-wrapper" markdown="1">
   <div className="box box1 card">
     <div className="container">
-    <a href="/integrations/deque/"> <img src={useBaseUrl('img/integrations/deque-logo-281x100.webp')} alt="Deque logo" width="64"/></a>
-    <h2>axe-core (by Deque)</h2>
+        <a href="/integrations/deque/"> <img src={useBaseUrl('img/integrations/axe_hero_blue.png')} alt="Deque logo" width="64"/></a>
+        <h2>axe-core (by Deque)</h2>
     </div>
   </div>
   <div className="box box2 card">
     <div className="container">
-    <a href="https://get-evinced.com/blog/evinced-flow-analyzer-for-mobile-sauce-labs/"> <img src={useBaseUrl('img/integrations/logo-evinced.webp')} alt="Evinced logo" width="64"/></a>
-    <h2>Evinced</h2>
+        <a href="https://get-evinced.com/blog/evinced-flow-analyzer-for-mobile-sauce-labs/"> <img src={useBaseUrl('img/integrations/evinced-squareLogo-1620206256338.png')} alt="Evinced logo" width="64"/></a>
+        <h2>Evinced</h2>
     </div>
   </div>
 </div>
 
 ### Defect Reporting and Management
-<a href="https://docs.saucelabs.com/basics/integrations/jira/index.html"> <img src={useBaseUrl('img/integrations/Jira_Software_2x-blue-704x328r1.webp')} alt="Jira logo" width="64" /></a>
+<div className="box-wrapper" markdown="1">
+  <div className="box box1 card">
+    <div className="container">
+        <a href="https://docs.saucelabs.com/basics/integrations/jira/index.html"> <img src={useBaseUrl('img/integrations/jira logo.jpg')} alt="Jira logo" width="64" /></a>
+        <h2>Jira</h2>
+    </div>
+  </div>
+</div>
 
 ### Test Reporting and Management
 <a href="https://reportportal.io/docs/Sauce-Labs"> <img src={useBaseUrl('img/integrations/logo-epam-284x100.webp')} alt="EPAM logo" width="64" /></a>
