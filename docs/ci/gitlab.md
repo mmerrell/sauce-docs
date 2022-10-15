@@ -83,7 +83,7 @@ Recommended for those experienced with shell scripting
 Using bash or equivalent within the GitLab .yml file, users can download Sauce Connect to a container and run it as a set up step in their CI. Below is an example of what this might look like.
 
 :::caution
-This script assumes that the environment variables SAUCE_USERNAME and SAUCE_ACCESS_KEY [have been set and are available to the script](http://localhost:3000/basics/environment-variables/).
+This script assumes that the environment variables SAUCE_USERNAME and SAUCE_ACCESS_KEY [have been set and are available to the script](https://docs.saucelabs.com/basics/environment-variables/).
 :::
 
 ```yaml title="gitlab-sc.yml"

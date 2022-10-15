@@ -13,6 +13,8 @@ Incorporating continuous testing into your CI pipeline means designing your test
     <h2>Sauce OnDemand Plugin</h2>
     <p>Use the Sauce Labs OnDemand plugin in conjunction with your existing CI pipeline to integrate your tests.<br/>
       <ul>
+        <li><a href="/ci/gitlab">GitLab</a></li>
+        <li><a href="/ci/azure">Azure</a></li>
         <li><a href="/ci/bamboo">Bamboo</a></li>
         <li><a href="/ci/bitbucket">Bitbucket</a></li>
         <li><a href="/ci/jenkins">Jenkins</a></li>
@@ -23,11 +25,11 @@ Incorporating continuous testing into your CI pipeline means designing your test
   <div className="box box2 card">
     <div className="container">
     <h2>3rd Party Integrations</h2>
-    <p>Get set up instructions provided by external developers for CI platforms for which we don't yet have a dedicated plugin.<br/>
+    <p>Get instructions provided by community developers<br/></p>
       <ul>
         <li><a href="https://circleci.com/integrations/saucelabs/">CircleCI</a></li>
         <li><a href="https://docs.travis-ci.com/user/sauce-connect/">Travis CI</a></li>
-      </ul></p>
+      </ul>
     </div>
   </div>
 </div>

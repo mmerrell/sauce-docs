@@ -1041,6 +1041,7 @@ module.exports = {
       collapsed: true,
       items: [
       'ci',
+      'ci/gitlab',
       'ci/azure',
       'ci/bamboo',
       'ci/bitbucket',
@@ -1115,7 +1116,6 @@ module.exports = {
           ],
         },
         'integrations/jira',
-        'integrations/gitlab',
         'integrations/slack',
         'integrations/webhooks',
         'integrations/uipath',

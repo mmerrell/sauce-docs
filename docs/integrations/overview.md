@@ -11,112 +11,211 @@ Sauce Labs integrates with the most important tools for your SDLC. Whether you n
 
 We partner with the top companies in the industry to bring you a complete solution for your testing needs. We also integrate seamlessly with the best open source tools in the ecosystem. 
 
-## Integrations Categories
-
-### CI/CD Tools
+## CI/CD Tools
 
 <div className="box-wrapper" markdown="1">
   <div className="box box1 card">
     <div className="container">
-        <a href="/ci/jenkins/"><img src={useBaseUrl('img/integrations/logo-jenkins.webp')} alt="Jenkins logo" width="64" /></a>
-        <h2>Jenkins</h2>
+        <a href="/ci/gitlab/"> <img src={useBaseUrl('img/integrations/gitlab.png')} alt="GitLab logo" width="64" /></a>
+        <h3>GitLab</h3>
     </div>
   </div>
   <div className="box box2 card">
     <div className="container">
-        <a href="https://docs.travis-ci.com/user/sauce-connect/"> <img src={useBaseUrl('img/integrations/logo-travis-ci.webp')} alt="Travis CI logo" width="64" /></a>
-        <h2>Travis CI</h2>
+        <a href="https://docs.saucelabs.com/dev/cli/saucectl/usage/ci/github-actions/"> <img src={useBaseUrl('img/integrations/GitHub-Mark-64px.png')} alt="Github logo" width="64" /></a>
+        <h3>Github Actions</h3>
     </div>
   </div>
   <div className="box box3 card">
     <div className="container">
-        <a href="/ci/teamcity/"> <img src={useBaseUrl('img/integrations/logo-team-city.webp')} alt="TeamCity logo" width="64" /></a>
-        <h2>TeamCity</h2>
-    </div>
+        <a href="/ci/azure"> <img src={useBaseUrl('img/integrations/Azure-Devops-Logo-Transparent.webp')} alt="Cloudbees logo" width="64" /></a>
+        <h3>Azure DevOps</h3>
+   </div>
   </div>
   <div className="box box4 card">
     <div className="container">
-        <a href="/integrations/gitlab/"> <img src={useBaseUrl('img/integrations/gitlab.png')} alt="GitLab logo" width="64" /></a>
-        <h2>GitLab</h2>
+        <a href="/ci/jenkins/"><img src={useBaseUrl('img/integrations/logo-jenkins.webp')} alt="Jenkins logo" width="64" /></a>
+        <h3>Jenkins</h3>
     </div>
   </div>
   <div className="box box5 card">
     <div className="container">
         <a href="https://circleci.com/docs/browser-testing/#sauce-labs"> <img src={useBaseUrl('img/integrations/logo-circle-ci.webp')} alt="CircleCI logo" width="64" /></a>
-        <h2>CircleCI</h2>
+        <h3>CircleCI</h3>
     </div>
   </div>
   <div className="box box6 card">
     <div className="container">
-        <a href="https://docs.saucelabs.com/dev/cli/saucectl/usage/ci/github-actions/"> <img src={useBaseUrl('img/integrations/GitHub-Mark-64px.png')} alt="Github logo" width="64" /></a>
-        <h2>Github Actions</h2>
+        <a href="https://codefresh.io/"> <img src={useBaseUrl('img/integrations/logo-codefresh.webp')} alt="Codefresh logo" width="64" /></a>
+        <h3>Codefresh</h3>
     </div>
   </div>
+
   <div className="box box7 card">
     <div className="container">
-        <a href="/ci/bamboo/"> <img src={useBaseUrl('img/integrations/bamboo.webp')} alt="Bamboo logo" width="64" /></a>
-        <h2>Bamboo</h2>
-   </div>
+        <a href="https://docs.travis-ci.com/user/sauce-connect/"> <img src={useBaseUrl('img/integrations/logo-travis-ci.webp')} alt="Travis CI logo" width="64" /></a>
+        <h3>Travis CI</h3>
+    </div>
   </div>
   <div className="box box8 card">
     <div className="container">
-        <a href=""> <img src={useBaseUrl('img/integrations/images.png')} alt="Cloudbees logo" width="64" /></a>
-        <h2>Cloudbees (hosted Jenkins)</h2>
+        <a href="/ci/bamboo/"> <img src={useBaseUrl('img/integrations/bamboo.webp')} alt="Bamboo logo" width="64"/></a>
+        <h3>Bamboo</h3>
    </div>
   </div>
   <div className="box box9 card">
     <div className="container">
-        <a href="/ci/azure"> <img src={useBaseUrl('img/integrations/Azure-Devops-Logo-Transparent.webp')} alt="Cloudbees logo" width="64" /></a>
-        <h2>Azure DevOps</h2>
+        <a href=""> <img src={useBaseUrl('img/integrations/images.png')} alt="Cloudbees logo" width="64" /></a>
+        <h3>Cloudbees (hosted Jenkins)</h3>
    </div>
+  </div>
+  <div className="box box10 card">
+    <div className="container">
+        <a href="/ci/teamcity/"> <img src={useBaseUrl('img/integrations/logo-team-city.webp')} alt="TeamCity logo" width="64" /></a>
+        <h3>TeamCity</h3>
+    </div>
   </div>
 </div>
 
-### Accessibility
+## Accessibility
 
 <div className="box-wrapper" markdown="1">
   <div className="box box1 card">
     <div className="container">
         <a href="/integrations/deque/"> <img src={useBaseUrl('img/integrations/axe_hero_blue.png')} alt="Deque logo" width="64"/></a>
-        <h2>axe-core (by Deque)</h2>
+        <h3>axe-core (by Deque)</h3>
     </div>
   </div>
   <div className="box box2 card">
     <div className="container">
         <a href="https://get-evinced.com/blog/evinced-flow-analyzer-for-mobile-sauce-labs/"> <img src={useBaseUrl('img/integrations/evinced-squareLogo-1620206256338.png')} alt="Evinced logo" width="64"/></a>
-        <h2>Evinced</h2>
+        <h3>Evinced</h3>
     </div>
   </div>
 </div>
 
-### Defect Reporting and Management
+## Defect Reporting and Management
 <div className="box-wrapper" markdown="1">
   <div className="box box1 card">
     <div className="container">
         <a href="https://docs.saucelabs.com/basics/integrations/jira/index.html"> <img src={useBaseUrl('img/integrations/jira logo.jpg')} alt="Jira logo" width="64" /></a>
-        <h2>Jira</h2>
+        <h3>Jira</h3>
     </div>
   </div>
 </div>
 
-### Test Reporting and Management
-<a href="https://reportportal.io/docs/Sauce-Labs"> <img src={useBaseUrl('img/integrations/logo-epam-284x100.webp')} alt="EPAM logo" width="64" /></a>
-TestRail
+## Test Reporting and Management
+<div className="box-wrapper" markdown="1">
+  <div className="box box1 card">
+    <div className="container">
+        <a href="https://reportportal.io/docs/Sauce-Labs"> <img src={useBaseUrl('img/integrations/logo-epam-284x100.webp')} alt="EPAM logo" width="64" /></a>
+        <h3>ReportPortal</h3>
+    </div>
+  </div>
+  <div className="box box2 card">
+    <div className="container">
+        <a href=""> <img src={useBaseUrl('img/integrations/testmo-logo.webp')} alt="TestMo logo" width="64" /></a>
+        <h3>TestMo</h3>
+    </div>
+  </div>
+  <div className="box box3 card">
+    <div className="container">
+        <a href=""> <img src={useBaseUrl('img/integrations/zebrunner_logo_2.svg')} alt="Zebrunner logo" width="64" /></a>
+        <h3>Zebrunner</h3>
+    </div>
+  </div>
+</div>
+
+## Awesome Test Enhancements!
+<div className="box-wrapper" markdown="1">
+  <div className="box box1 card">
+    <div className="container">
+        <a href=""> <img src={useBaseUrl('img/integrations/logo-mailosaur-515x100.webp')} alt="Mailosaur logo" width="64" /></a>
+        <h3>Mailosaur</h3>
+    </div>
+  </div>
+  <div className="box box2 card">
+    <div className="container">
+        <a href=""> <img src={useBaseUrl('img/integrations/Bespoken_Logo.webp')} alt="Bespoken logo" width="64"/></a>
+        <h3>Bespoken</h3>
+    </div>
+  </div>
+</div>
+
+## Test Data Management
+<div className="box-wrapper" markdown="1">
+  <div className="box box1 card">
+    <div className="container">
+        <a href="https://www.genrocket.com/test-automation-for-continuous-delivery/"> <img src={useBaseUrl('img/integrations/logo-genrocket.webp')} alt="GenRocket logo" width="64" /></a>
+        <h3>GenRocket</h3>
+    </div>
+  </div>
+  <div className="box box2 card">
+    <div className="container">
+        <a href="https://www.k2view.com/test-data-management-whitepaper"> <img src={useBaseUrl('img/integrations/k2view-logo-footer.svg')} alt="K2View logo" width="64" /></a>
+        <h3>K2View</h3>
+    </div>
+  </div>
+</div>
 
 
-<a href=""> <img src={useBaseUrl('img/integrations/Bespoken_Logo.webp')} alt="Bespoken logo" width="64"/></a>
-<a href=""> <img src={useBaseUrl('img/integrations/Keysight-Eggplant-Logo_RGB_full-color.webp')} alt="Keysight logo" width="64" /></a>
-<a href=""> <img src={useBaseUrl('img/integrations/logo-codefresh.webp')} alt="Codefresh logo" width="64" /></a>
-<a href=""> <img src={useBaseUrl('img/integrations/logo-curiosity-software-ireland.webp')} alt="Curiosity logo" width="64" /></a>
-<a href=""> <img src={useBaseUrl('img/integrations/logo-genrocket.webp')} alt="GenRocket logo" width="64" /></a>
-<a href=""> <img src={useBaseUrl('img/integrations/logo-mailosaur-515x100.webp')} alt="Mailosaur logo" width="64" /></a>
-<a href=""> <img src={useBaseUrl('img/integrations/logo-qmetry-370x100.webp')} alt="QMetry logo" width="64" /></a>
-<a href=""> <img src={useBaseUrl('img/integrations/logo-scriptworks.webp')} alt="Scriptworks logo" width="64" /></a>
-<a href=""> <img src={useBaseUrl('img/integrations/logo-testsigma.webp')} alt="TestSigma logo" width="64" /></a>
-<a href=""> <img src={useBaseUrl('img/integrations/logo-tricentis.webp')} alt="Tricentis logo" width="64" /></a>
-<a href=""> <img src={useBaseUrl('img/integrations/logo-webomates.webp')} alt="Webomates logo" width="64" /></a>
-<a href=""> <img src={useBaseUrl('img/integrations/Selenium_Consulting_Transparent_Logo.webp')} alt="Selenium Consulting logo" width="64" /></a>
-<a href=""> <img src={useBaseUrl('img/integrations/testmo-logo.webp')} alt="TestMo logo" width="64" /></a>
+## Low-code/No-code/Model-based Test Case Generation
+<div className="box-wrapper" markdown="1">
+  <div className="box box1 card">
+    <div className="container">
+        <a href="https://www.eggplantsoftware.com/"> <img src={useBaseUrl('img/integrations/Keysight-Eggplant-Logo_RGB_full-color.webp')} alt="Keysight logo" width="64" /></a>
+        <h3>Keysight Eggplant</h3>
+    </div>
+  </div>
+  <div className="box box2 card">
+    <div className="container">
+        <a href="https://www.tricentis.com/"> <img src={useBaseUrl('img/integrations/logo-tricentis.webp')} alt="Tricentis logo" width="64" /></a>
+        <h3>Tricentis Tosca</h3>
+    </div>
+  </div>
+  <div className="box box3 card">
+    <div className="container">
+        <a href="/integrations/uipath"> <img src={useBaseUrl('img/integrations/ui-path-logo.webp')} alt="UiPath logo" width="64" /></a>
+        <h3>UiPath Test Suite</h3>
+    </div>
+  </div>
+  <div className="box box4 card">
+    <div className="container">
+        <a href="https://curiositysoftware.ie/"> <img src={useBaseUrl('img/integrations/logo-curiosity-software-ireland.webp')} alt="Curiosity logo" width="64" /></a>
+        <h3>Curiosity.io</h3>
+    </div>
+  </div>
+  <div className="box box5 card">
+    <div className="container">
+        <a href="https://webomates.com/"> <img src={useBaseUrl('img/integrations/logo-webomates.webp')} alt="Webomates logo" width="64" /></a>
+        <h3>Webomates</h3>
+    </div>
+  </div>
+  <div className="box box6 card">
+    <div className="container">
+        <a href="https://testsigma.com/"> <img src={useBaseUrl('img/integrations/logo-testsigma.webp')} alt="TestSigma logo" width="64" /></a>
+        <h3>TestSigma</h3>
+    </div>
+  </div>
+  <div className="box box7 card">
+    <div className="container">
+        <a href="https://www.scriptworks.io/"> <img src={useBaseUrl('img/integrations/logo-scriptworks.webp')} alt="Scriptworks logo" width="64" /></a>
+        <h3>Scriptworks</h3>
+    </div>
+  </div>
+  <div className="box box8 card">
+    <div className="container">
+        <a href="https://www.qmetry.com/"> <img src={useBaseUrl('img/integrations/logo-qmetry-370x100.webp')} alt="QMetry logo" width="64" /></a>
+      <h3>QMetry</h3>
+    </div>
+  </div>
+  <div className="box box9 card">
+    <div className="container">
+        <a href="https://selenium-toolkit.com/"> <img src={useBaseUrl('img/integrations/Selenium_Consulting_Transparent_Logo.webp')} alt="Selenium Consulting logo" width="64" /></a>
+        <h3>Selenium Toolkit</h3>
+    </div>
+  </div>
+</div>
+
+## API Management and Testing
 <a href=""> <img src={useBaseUrl('img/integrations/Tibco_Logo.webp')} alt="TIBCO logo" width="64" /></a>
-<a href=""> <img src={useBaseUrl('img/integrations/ui-path-logo.webp')} alt="UiPath logo" width="64" /></a>
-<a href=""> <img src={useBaseUrl('img/integrations/zebrunner_logo_2.svg')} alt="Zebrunner logo" width="64" /></a>
