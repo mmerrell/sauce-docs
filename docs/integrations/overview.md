@@ -13,6 +13,10 @@ We partner with the top companies in the industry to bring you a complete soluti
 
 ## CI/CD Tools
 
+<div className="box boxwidetop card">
+  Your CI/CD process needs automated testing in order to be successful. Sauce Labs integrates with every tool in the ecosystem. 
+</div>
+
 <div className="box-wrapper" markdown="1">
   <div className="box box1 card">
     <div className="container">

@@ -1,48 +1,32 @@
 ---
 id: ci
-title: Incorporating Sauce Labs in Your CI Pipeline
+title: Sauce Labs in the CI/CD Pipeline
 sidebar_label: Getting Started
 description: Sauce Labs coordinates seamlessly with the most popular Continuous Integration platforms.
 ---
 
-Incorporating continuous testing into your CI pipeline means designing your tests to fit appropriately into each stage of your application development and delivery cycle. If you are already using one of the many platforms for continuous integration of your application development, we've got instructions for integrating your Sauce Labs test suite right into that pipeline.
-
-<div className="box-wrapper" markdown="1">
-  <div className="box box1 card">
-    <div className="container">
-    <h2>Sauce OnDemand Plugin</h2>
-    <p>Use the Sauce Labs OnDemand plugin in conjunction with your existing CI pipeline to integrate your tests.<br/>
-      <ul>
-        <li><a href="/ci/gitlab">GitLab</a></li>
-        <li><a href="/ci/azure">Azure</a></li>
-        <li><a href="/ci/bamboo">Bamboo</a></li>
-        <li><a href="/ci/bitbucket">Bitbucket</a></li>
-        <li><a href="/ci/jenkins">Jenkins</a></li>
-        <li><a href="/ci/teamcity">TeamCity</a></li>
-      </ul></p>
-    </div>
-  </div>
-  <div className="box box2 card">
-    <div className="container">
-    <h2>3rd Party Integrations</h2>
-    <p>Get instructions provided by community developers<br/></p>
-      <ul>
-        <li><a href="https://circleci.com/integrations/saucelabs/">CircleCI</a></li>
-        <li><a href="https://docs.travis-ci.com/user/sauce-connect/">Travis CI</a></li>
-      </ul>
-    </div>
-  </div>
+<div className="box boxwidetop card">
+  Your CI/CD process needs automated testing in order to be successful. Sauce Labs integrates with every tool in the ecosystem. 
 </div>
-<div>
-  <div className="box boxwidebottom card">
-    <div className="container">
-    <h2>Learn More</h2>
-    <p>Not a developer? Want to learn more about continuous integration and how you can design a strategy for testing right through your entire software development cycle? Check out some of these helpful resources.<br/>
-      <ul>
-        <li><a href="https://saucelabs.com/resources/articles/automated-testing-in-cicd-a-continuous-integration-server-integration-primer">Automated Testing in CI/CD Primer White Paper</a></li>
-        <li><a href="https://saucelabs.com/blog/choosing-a-ci-cd-tool">Choosing a CI/CD Tool Blog</a></li>
-        <li><a href="https://training.saucelabs.com/codelabs/Module2-Testrunner/index.html?index=..%2F..saucectl#4">Sauce School Cypress/GitHub Actions Integration Module</a></li>
-      </ul></p>
-    </div>
-  </div>
+
+
+## Step-by-step Guides
+
+* <a href="/ci/bamboo">Bamboo</a>
+* <a href="/ci/jenkins">Jenkins</a>
+* <a href="/ci/teamcity">TeamCity</a>
+* <a href="/ci/gitlab">GitLab</a>
+* <a href="https://circleci.com/integrations/saucelabs/">CircleCI</a>
+* <a href="/ci/azure">Azure</a>
+* <a href="/ci/bitbucket">Bitbucket</a>
+* <a href="https://docs.travis-ci.com/user/sauce-connect/">Travis CI</a>
+
+<div className="box boxwidebottom card">
+        <h2>Getting Started?</h2>
+        If you haven't settled on a CI/CD tool yet, check out these articles and blog posts about how best to choose a platform and make a recommendation!
+        <ul>
+                <li><a href="https://saucelabs.com/resources/articles/automated-testing-in-cicd-a-continuous-integration-server-integration-primer">Automated Testing in CI/CD Primer White Paper</a></li>
+                <li><a href="https://saucelabs.com/blog/choosing-a-ci-cd-tool">Choosing a CI/CD Tool Blog</a></li>
+                <li><a href="https://training.saucelabs.com/codelabs/Module2-Testrunner/index.html?index=..%2F..saucectl#4">Sauce School Cypress/GitHub Actions Integration Module</a></li>
+        </ul>
 </div>

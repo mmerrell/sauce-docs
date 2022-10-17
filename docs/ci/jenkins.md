@@ -12,8 +12,8 @@ The OnDemand plugin allows you to easily manage your Sauce Labs testing from [Je
 
 ## What You'll Learn
 
-* How to install and configure the Sauce OnDemand Plugin for Jenkins
-* How to configure Sauce Connect to enable testing on private networks
+* How to install and configure the [Sauce OnDemand Plugin for Jenkins](https://plugins.jenkins.io/sauce-ondemand/)
+* How to configure [Sauce Connect](https://www.jenkins.io/doc/pipeline/steps/sauce-ondemand/#sauceconnect-sauce-connect) to enable testing on private networks
 * How to run parallel tests in Jenkins
 * How to set up reporting between Sauce Labs & Jenkins
 * How to implement the OnDemand plugin into your Jenkins pipeline
