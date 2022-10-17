@@ -1036,21 +1036,6 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'CI',
-      link: { type: 'doc', id: 'ci' },
-      collapsed: true,
-      items: [
-      'ci',
-      'ci/gitlab',
-      'ci/azure',
-      'ci/bamboo',
-      'ci/bitbucket',
-      'ci/jenkins',
-      'ci/teamcity',
-    ],
-    },
-    {
-      type: 'category',
       label: 'Test Results',
       link: { type: 'doc', id: 'test-results' },
       collapsed: true,
@@ -1108,18 +1093,68 @@ module.exports = {
         'integrations/integrations-overview',
         {
           type: 'category',
+          label: 'CI/CD Integrations',
+          link: { type: 'doc', id: 'ci' },
+          collapsed: true,
+          items: [
+            'ci/azure',
+            'ci/bamboo',
+            'ci/bitbucket',
+            'ci/gitlab',
+            'ci/jenkins',
+            'ci/teamcity',
+          ],
+        },
+        {
+          type: 'category',
           label: 'Accessibility',
           link: { type: 'doc', id: 'integrations/deque' },
           collapsed: true,
           items: [
             'integrations/deque',
+            'integrations/evinced'
           ],
         },
-        'integrations/jira',
-        'integrations/slack',
-        'integrations/webhooks',
-        'integrations/uipath',
-        'integrations/sumo',
+        {
+          type: 'category',
+          label: 'Team Collaboration',
+          link: { type: 'doc', id: 'integrations/jira' },
+          collapsed: true,
+          items: [
+            'integrations/jira',
+            'integrations/slack',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Codeless/RPA Integrations',
+          link: { type: 'doc', id: 'integrations/uipath' },
+          collapsed: true,
+          items: [
+            'integrations/uipath',
+            'integrations/tosca',
+            'integrations/eggplant',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'APM Integrations',
+          link: { type: 'doc', id: 'integrations/uipath' },
+          collapsed: true,
+          items: [
+            'integrations/datadog',
+            'integrations/sumo',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Build Your Own Integration!',
+          link: { type: 'doc', id: 'integrations/webhooks' },
+          collapsed: true,
+          items: [
+            'integrations/webhooks',
+          ],
+        },
       ],
     },
     {
